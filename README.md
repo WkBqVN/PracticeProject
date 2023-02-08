@@ -4,6 +4,8 @@
 # PracticeProject
 ## FrontEnd shop server(nodejs & reactjs)
 => Shop and front end server use reactjs and nodejs
+=> Nodejs use mongodb to load to frontend. But some feature will raise api to to controller server
+=> like house card will raise local mongodb but create a new user will raise controller server call
 => Nodejs receive port  : 6000
 
 ## Scanner server (java)
