@@ -3,26 +3,26 @@
 
 # PracticeProject
 ## FrontEnd shop server(nodejs & reactjs)
-=> Shop and front end server use reactjs and nodejs
-=> Nodejs use mongodb to load to frontend. But some feature will raise api to to controller server
-=> like house card will raise local mongodb but create a new user will raise controller server call
+=> Shop and front end server use reactjs and nodejs<br>
+=> Nodejs use mongodb to load to frontend. But some feature will raise api to to controller server<br>
+=> like house card will raise local mongodb but create a new user will raise controller server call<br>
 => Nodejs receive port  : 6000
 
 ## Scanner server (java)
-=>  Scanner Server use java 
-=>  Scanner Java receive port : 5000
+=>  Scanner Server use java <br>
+=>  Scanner Java receive port : 5000<br>
 
 ## Sql server (C#)
-=>  Sql server use c# to manager
-=>  Scanner Java receive port : 4000
+=>  Sql server use c# to manager<br>
+=>  Scanner Java receive port : 4000<br>
 
 ## Data Analyst (Python)
-=> Data Analyst code use python
-=> Data Analyst receiver port : 3000
+=> Data Analyst code use python<br>
+=> Data Analyst receiver port : 3000<br>
 
 ## Controller server (golang)
-=> Controller server use golang
-=> Controller receiver port : 8000
-=> Controller send port : 8080
+=> Controller server use golang<br>
+=> Controller receiver port : 8000<br>
+=> Controller send port : 8080<br>
 
 
