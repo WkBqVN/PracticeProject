@@ -6,7 +6,8 @@
 => Shop and front end server use reactjs and nodejs<br>
 => Nodejs use mongodb to load to frontend. But some feature will raise api to to controller server<br>
 => like house card will raise local mongodb but create a new user will raise controller server call<br>
-=> Nodejs receive port  : 6000
+=> Nodejs receive port  : 6000<br>
+=> Reactjs display port : 3000<br>
 
 ## Scanner server (java)
 =>  Scanner Server use java <br>
