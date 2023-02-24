@@ -15,12 +15,14 @@ function App() {
   return (
     <div className="App">
       <NavbarMain name="navbar-main" />
-      <Row style={{width:"100%"}}>
+      <Row style={{ width: "100%" }}>
         <Col sm={10}>
           <Container fluid>
             <Row>
-              <Col sm={2} style={{ background: "blue" }} >
-                <NotedListHouse />
+              <Col sm={2} style={{background: "blue"}}>
+                <div>
+                  <NotedListHouse />
+                </div>
               </Col>
               <Col sm={10} style={{ background: "black" }}>
                 <HouseCard />

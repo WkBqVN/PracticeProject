@@ -1,7 +1,9 @@
 import React, { useState } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import testImg from '../data/dummydata/house1.jpeg';
+import testImg from '../data/dummydata/house1.jpeg'
+import Container from 'react-bootstrap/Container';
+
 //import "../data/dummydata/dummydata.json" 
 
 var dataNotedHouse = require('../data/dummydata/dummydata.json')
@@ -20,8 +22,8 @@ function generateList(data) {
     console.log(data.houses)
     let listHouse = data.houses.map(houseObj => {
         return (
-            <li key={data.houses.indexOf(houseObj)}>
-                <Card style={{ width: "10%", height: "15%" }}>
+            <li key={data.houses.indexOf(houseObj)} style={{marginTop: "2%"}}>
+                <Card style={{ width: "100%",height:"23%"}}>
                     <Card.Img variant="top" src={testImg} />
                     <Card.Body>
                         <Card.Title>{houseObj.houseName}</Card.Title>
@@ -34,8 +36,10 @@ function generateList(data) {
     })
     console.log(listHouse)
     return (
-        <ul id="noted-house-list" style={{height: "80%", background:"orange[]"}}>
-            {listHouse}
+        <ul id="noted-house-list" style={{height: "80%"}}>
+            <div>
+                {listHouse}
+            </div>
         </ul>
     )
 }

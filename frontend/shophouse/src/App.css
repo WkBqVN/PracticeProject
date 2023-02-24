@@ -36,11 +36,38 @@ ul {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 #top-bar {
-  width: 80%;
+  width: 100%;
+}
+
+.navbar{
+  padding: 0px !important;
+}
+
+.col{
+  padding: 0px !important;
+}
+
+.container,.container-fluid {
+  padding-right: 0px !important;
+}
+
+ul,
+ol {
+  list-style: none;
+  /* remove the default list style */
+  padding: 0;
+  /* remove any default padding */
+  padding-left: 0rem !important;
+}
+
+li {
+  width: 100%;
+  /* make the list item full-width */
 }
