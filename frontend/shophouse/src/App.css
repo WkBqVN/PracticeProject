@@ -46,6 +46,18 @@ ul {
   width: 100%;
 }
 
+#noted-house-list{
+  overflow-y: scroll;
+}
+
+.noted-house-card-class{
+  /*this will raise cause the container is suck */
+  height: 50px;
+  display: inline-block;
+  margin-Top: 2% !important;
+  margin-Right: 2%;
+}
+
 .navbar{
   padding: 0px !important;
 }
@@ -58,8 +70,17 @@ ul {
   padding-right: 0px !important;
 }
 
-ul,
-ol {
+.footer-bar{
+  height: 8%;
+  display: inline-block;
+  width: 82.7%;
+  position : fixed;
+  left: 0;
+  bottom: 0;
+  background-color:red;
+}
+
+ul,ol {
   list-style: none;
   /* remove the default list style */
   padding: 0;

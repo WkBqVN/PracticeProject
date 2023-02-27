@@ -3,6 +3,7 @@ https://blog.webdevsimplified.com/2022-07/react-folder-structure/
 
 ## install
 react-create-app
+npm install react-scripts axios
 npm install react-bootstrap bootstrap react-doom reactstrap react-router-dom
 npm install eslint-plugin-react-hooks --save-dev
 

@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import NavbarMain from './components/NavbarMain';
+import NavbarMain from './components/NavbarTop';
 import HouseCard from './components/HouseCard';
+import FooterBar from './components/FooterBar';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
@@ -19,7 +20,7 @@ function App() {
         <Col sm={10}>
           <Container fluid>
             <Row>
-              <Col sm={2} style={{background: "blue"}}>
+              <Col sm={2} style={{ background: "blue" }}>
                 <div>
                   <NotedListHouse />
                 </div>
@@ -29,12 +30,13 @@ function App() {
               </Col>
             </Row>
           </Container>
+          <FooterBar />
         </Col>
         <Col sm={2} style={{ background: "lime" }}>
           <h2>asdf</h2>
         </Col>
-      </Row>
-    </div>
+      </Row >
+    </div >
   );
 }
 

@@ -22,8 +22,8 @@ function generateList(data) {
     console.log(data.houses)
     let listHouse = data.houses.map(houseObj => {
         return (
-            <li key={data.houses.indexOf(houseObj)} style={{marginTop: "2%"}}>
-                <Card style={{ width: "100%",height:"23%"}}>
+            <li className="noted-house-card-class" key={data.houses.indexOf(houseObj)} style={{}}>
+                <Card style={{ width: "100%" }}>
                     <Card.Img variant="top" src={testImg} />
                     <Card.Body>
                         <Card.Title>{houseObj.houseName}</Card.Title>
@@ -36,7 +36,7 @@ function generateList(data) {
     })
     console.log(listHouse)
     return (
-        <ul id="noted-house-list" style={{height: "80%"}}>
+        <ul id="noted-house-list" style={{ height: "80%", display: "fixed", left: 0 }}>
             <div>
                 {listHouse}
             </div>
