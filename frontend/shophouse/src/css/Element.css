@@ -1,0 +1,13 @@
+ul,
+ol {
+    list-style: none;
+    /* remove the default list style */
+    padding: 0;
+    /* remove any default padding */
+    padding-left: 0rem !important;
+}
+
+li {
+    width: 100%;
+    /* make the list item full-width */
+}
