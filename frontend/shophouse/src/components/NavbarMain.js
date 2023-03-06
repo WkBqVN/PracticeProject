@@ -17,7 +17,7 @@ function NavbarMain() {
                                 <span className="text-success my-auto" style={{
                                     backgroundColor: "white"
                                 }}>User</span>
-                            } id="user-dropdown">
+                                } id="user-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Profile</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Money</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Status</NavDropdown.Item>
@@ -28,7 +28,7 @@ function NavbarMain() {
                                 <span className="text-dark my-auto" style={{
                                     backgroundColor: "white"
                                 }}>Workspace</span>
-                            } id="workspace-dropdown" bg="light">
+                                } id="workspace-dropdown" bg="light">
                                 <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">House List</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.3">Finance</NavDropdown.Item>
