@@ -27,3 +27,8 @@
 => Controller send port : 8080<br>
 
 
+2. Updated to submodule
+## FrontEnd shop server(nodejs & reactjs)
+https://github.com/WkBqVN/houseProject
+
+
