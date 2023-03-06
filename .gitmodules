@@ -1,0 +1,6 @@
+[submodule "houseProject"]
+path = lib/billboard
+url = https://github.com/WkBqVN/houseProject.git
+[submodule "projects/houseProject"]
+	path = projects/houseProject
+	url = https://github.com/WkBqVN/houseProject.git
